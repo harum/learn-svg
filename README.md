@@ -13,3 +13,4 @@ Open the HTML file inside each folder to show the result.
 
 ## Resources
 - [https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
+- [https://flaviocopes.com/svg/](https://flaviocopes.com/svg/)
