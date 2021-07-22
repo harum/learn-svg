@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SVG</title>
+
+    <style>
+      .container {
+        padding: 20px;
+      }
+
+      svg {
+        background-color: Lavender;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p><code>text</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <text x="50" y="50" font-size="40" text-anchor="middle">
+          SVG
+        </text>
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>circle</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <circle cx="50" cy="50" r="40" fill="MediumOrchid" />
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>rect</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <rect x="10" y="10" width="50" height="50" fill="MediumOrchid" />
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>line</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <line x1="10" y1="20" x2="90" y2="80" stroke="MediumOrchid" />
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>path</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <path d="M 10 10 L 60 15 H 90 V 75 C 50 100 50 50 10 80 Z" stroke="black" fill="MediumOrchid"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>polygon</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <polygon points="10, 20, 40, 80, 90, 80, 90 60" stroke="black" fill="MediumOrchid"/>
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>g</code></p>
+      <svg
+        width="100"
+        height="100"
+      >
+        <g id="rect-groupe">
+          <rect x="10" y="10" width="50" height="50" fill="MediumOrchid" />
+          <rect x="30" y="30" width="50" height="50" fill="MediumOrchid" />
+        </g>
+      </svg>
+    </div>
+
+    <div class="container">
+      <p><code>viewbox</code></p>
+      <svg
+        width="100"
+        height="100"
+        viewBox="0 0 50 50"
+      >
+        <circle cx="50" cy="50" r="50" fill="MediumOrchid" />
+      </svg>
+
+      <svg
+        width="100"
+        height="100"
+        viewBox="50 50 50 50"
+      >
+        <circle cx="50" cy="50" r="50" fill="MediumOrchid" />
+      </svg>
+    </div>
+
+  </body>
+</html>
