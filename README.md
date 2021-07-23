@@ -21,4 +21,7 @@ Open each HTML file to show the result.
 - [https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial](https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial)
 - [https://flaviocopes.com/svg/](https://flaviocopes.com/svg/)
 - [https://d3js.org/](https://d3js.org/)
+
+## Inspiration
+- [https://shirleywu.studio/](https://shirleywu.studio/)
 - [https://www.ticketmatic.com/docs/events/drawingseatingplans/](https://www.ticketmatic.com/docs/events/drawingseatingplans/)

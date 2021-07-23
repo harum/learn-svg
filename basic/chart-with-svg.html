@@ -13,6 +13,15 @@
         width: 400px;
         height: 400px;
       }
+
+      .bar {
+        cursor: pointer;
+        transition: y 1s, height 1s;
+      }
+
+      .bar:hover {
+        fill: MediumPurple;
+      }
     </style>
 
     <script type="module" src="./chart.js"></script>
@@ -22,6 +31,8 @@
       <p>insert using JavaScript</p>
       <div id="chart-svg" class="chart">
       </div>
+      <button id="start-history">Start History</button>
+      <button id="stop-history">Stop History</button>
     </div>
   </body>
 </html>
